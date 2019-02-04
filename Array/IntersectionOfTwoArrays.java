@@ -8,8 +8,8 @@ https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/arra
 */
 public class IntersectionOfTwoArrays {
     public int[] intersect(int[] nums1, int[] nums2) {
-        Map<Integer, Integer> map = new HashMap();
-        List<Integer> result = new ArrayList();
+        Map<Integer, Integer> map = new HashMap<>();
+        List<Integer> result = new ArrayList<>();
         for (int i = 0; i < nums1.length; i++) {
             Integer val = map.get(nums1[i]);
             if (val != null) {
