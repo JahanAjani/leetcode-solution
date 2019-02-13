@@ -2,7 +2,7 @@
 https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/886/
  */
 public class CountAndSay {
-    public String countAndSay(int n) {
+    public String countAndSaySolution(int n) {
         String s = "1";
         if(n==1){
             return s;
