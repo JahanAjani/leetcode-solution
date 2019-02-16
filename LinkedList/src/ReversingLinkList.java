@@ -1,5 +1,7 @@
 import java.util.Stack;
-
+/*
+https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/
+ */
 public class ReversingLinkList {
     public ListNode reverseList(ListNode head) {
         Stack<ListNode> store = new Stack<>();
