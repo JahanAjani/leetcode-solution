@@ -1,3 +1,6 @@
+/*
+https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/772/
+ */
 public class isPalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) return true;
