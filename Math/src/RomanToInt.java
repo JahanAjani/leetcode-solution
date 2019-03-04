@@ -10,7 +10,7 @@ public class RomanToInt {
         if (s.length() == 0) {
             return -1;
         }
-        Map<Character, Integer> store = new HashMap();
+        Map<Character, Integer> store = new HashMap<>();
         store.put('I', 1);
         store.put('V', 5);
         store.put('X', 10);
