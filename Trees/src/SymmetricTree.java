@@ -3,7 +3,10 @@ https://leetcode.com/explore/featured/card/top-interview-questions-easy/94/trees
  */
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
-        return checkSymmetric(root, root);
+        if (root == null) {
+            return true;
+        }
+        return checkSymmetric(root.left, root.right);
     }
 
     private boolean checkSymmetric(TreeNode leftTree, TreeNode rightTree) {
