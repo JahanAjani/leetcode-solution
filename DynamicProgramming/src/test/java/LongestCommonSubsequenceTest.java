@@ -12,7 +12,7 @@ public class LongestCommonSubsequenceTest {
     public void testLCS(){
         longestCommonSubsequence = new LongestCommonSubsequence();
         String lcs = longestCommonSubsequence.getLCS("ABCBDAB", "BDCABA");
-        System.out.println(lcs);
         Assert.assertTrue("lcs should not be null",lcs !=null);
+        Assert.assertTrue("lcs should be equal to: ",lcs.equals("BCBA"));
     }
 }
