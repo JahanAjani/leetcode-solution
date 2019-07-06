@@ -3,7 +3,6 @@
  * always fill first left node and then right node.
  */
 
-import java.util.EmptyStackException;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
